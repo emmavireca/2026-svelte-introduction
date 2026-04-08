@@ -1,6 +1,7 @@
 <script>
     import CanvasSquare from "$lib/components/CanvasSquare.svelte";
     import ClicksCounter from "$lib/components/ClicksCounter.svelte";
+    import TodoList from "$lib/components/TodoList.svelte";
 
     let count = $state(5)
 </script>
@@ -13,12 +14,14 @@
 {#if count> 10 && count < 20}
     <p>count from parent is {count}</p>
     {:else if count > 30}
-    <p>that's a lot of clicks</p>
+    <p>that's a lot of clicks!!</p>
     {:else}
     <p>count is not in range</p>
 {/if}
 
 <CanvasSquare />
+
+<TodoList/>
 
 <style>
     h1 {
