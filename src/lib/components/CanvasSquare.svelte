@@ -1,5 +1,5 @@
 <script>
-import {onMount} from "svelte"
+import { untrack } from "svelte"
     let size = $state(50)
     let color = $state ("aff13e00")
     
@@ -9,7 +9,7 @@ import {onMount} from "svelte"
         const context = canvas.getContext("2d")
     context.clearRect(0, 0, canvas.clientWidth, canvas.height)
 
-    context.fillStyle = color 
+    context.fillStyle = untrack(() => color) 
     context.fillRect(0, 0, size, size)
     })
 </script>
