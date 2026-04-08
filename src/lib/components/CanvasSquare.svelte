@@ -21,11 +21,11 @@ import {onMount} from "svelte"
     <canvas bind:this={canvas} width ="100" height="100"></canvas> 
     <nav>
        <label>
-        Size: <input type="range">
+        Size: <input type="range" bind:value={size}>
        </label>
 
        <label>
-        Color: <input type="color">
+        Color: <input type="color" bind:value={color}>
        </label>
     </nav>
 </article>
@@ -44,6 +44,6 @@ import {onMount} from "svelte"
  nav {
     display: flex;
     gap: 1em;
-
+    flex-direction: column;
  }
 </style>
