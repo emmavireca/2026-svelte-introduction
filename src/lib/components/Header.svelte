@@ -7,7 +7,6 @@
 	<Link title="EV archive" ref="/" />
 
 	<nav>
-		<Link title="About" ref="/about" />
 		<Link
 			title="@emmavireca"
 			ref="https://www.instagram.com/emmavireca"
