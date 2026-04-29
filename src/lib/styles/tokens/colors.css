@@ -1,0 +1,60 @@
+:root {
+	/* HEX Colors */
+	--hex-brand-50:  #FFF7F1;
+	--hex-brand-100: #FAD9C8;
+	--hex-brand-200: #F5AC93;
+	--hex-brand-300: #E1715A;
+	--hex-brand-400: #C43D31;
+	--hex-brand-500: #9D0000;
+	--hex-brand-600: #87000B;
+	--hex-brand-700: #710013;
+	--hex-brand-800: #5B0017;
+	--hex-brand-900: #4B001A;
+
+	--hex-neutral-50:  #FCFCFC;
+	--hex-neutral-100: #EAEBEC;
+	--hex-neutral-200: #D3D5D8;
+	--hex-neutral-300: #B7B9BF;
+	--hex-neutral-400: #999EA5;
+	--hex-neutral-500: #818790;
+	--hex-neutral-600: #666B72;
+	--hex-neutral-700: #51555B;
+	--hex-neutral-800: #3A3C40;
+	--hex-neutral-900: #2A2C2F;
+
+}
+
+	/* Named Colors */
+	@media screen and (prefers-color-scheme: light) {
+		:root {
+		--color-canvas: var(--hex-neutral-50);
+		--color-surface: var(--hex-neutral-100);
+
+		--color-ink: var(--hex-neutral-900);
+		--color-ink-secondary: var(--hex-neutral-500);
+		--color-ink-inverted: var(--hex-neutral-50);
+
+		--color-link--default: var(--hex-neutral-900);
+		--color-link--hover: var(--hex-brand-600);
+
+		--color-filter--hover: var(--hex-neutral-100);
+		--color-filter--selected: var(--hex-brand-600);
+		}
+	}
+
+	@media screen and (prefers-color-scheme: dark) {
+		:root {
+		--color-canvas: var(--hex-neutral-900);
+		--color-surface: var(--hex-neutral-800);
+
+		--color-ink: var(--hex-neutral-50);
+		--color-ink-secondary: var(--hex-neutral-300);
+		--color-ink-inverted: var(--hex-neutral-900);
+
+		--color-link--default: var(--hex-brand-100);
+		--color-link--hover: var(--hex-brand-300);
+
+		--color-filter--hover: var(--hex-neutral-800);
+		--color-filter--selected: var(--hex-brand-600);
+		}
+	}
