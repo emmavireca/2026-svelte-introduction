@@ -9,6 +9,13 @@
 	import Focus from "$lib/assets/focus.png";
 	import Basque from "$lib/assets/basque.png";
 	import Foto from "$lib/assets/foto.png";
+	import Voila from "$lib/assets/Voilà.png";
+	import Goccie from "$lib/assets/Goccie.png";
+	import Dizionario from "$lib/assets/dizionario.png";
+	import Alpha from "$lib/assets/alpha.png";
+	import bruco from "$lib/assets/bruco.gif";
+	import mockup from "$lib/assets/moc.png";
+
 
 
 	const data = {
@@ -26,13 +33,22 @@
 				{ data: { title: "25 fotografie", year: "2026", thumbnail: Foto } }
 			]
 		},
+		
 		{
 			number: 2025,
-			projects: []
+			projects: [
+				{ data: { title: "Voilà", year: "2025", thumbnail: Voila } },
+				{ data: { title: "Goccie di cristallo", year: "2025", thumbnail: Goccie } },
+				{ data: { title: "Dizionario", year: "2025", thumbnail: Dizionario } },
+				{ data: { title: "Specimen Alphapipe", year: "2025", thumbnail: Alpha } }
+			]
 		},
 		{
 			number: 2024,
-			projects: []
+			projects: [
+				{ data: { title: "Animazione per città invisibili", year: "2024", thumbnail: bruco } },
+				{ data: { title: "Mockup per elementi visivi", year: "2024", thumbnail: mockup } }
+			]
 		}
 	]
 };
