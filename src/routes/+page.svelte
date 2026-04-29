@@ -38,7 +38,7 @@
 			number: 2025,
 			projects: [
 				{ data: { title: "Voilà", year: "2025", thumbnail: Voila } },
-				{ data: { title: "Goccie di cristallo", year: "2025", thumbnail: Goccie } },
+				{ data: { title: "Gocce di cristallo", year: "2025", thumbnail: Goccie } },
 				{ data: { title: "Dizionario", year: "2025", thumbnail: Dizionario } },
 				{ data: { title: "Specimen Alphapipe", year: "2025", thumbnail: Alpha } }
 			]
